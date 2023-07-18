@@ -8,6 +8,11 @@ This project is a simple program that allows you to scrape the first few sentenc
 * Retrieve the contents of a Wikipedia page by providing a topic and desired number of sentences.
 * Utilize the `wikipedia` library to fetch data from Wikipedia
 * Customize the number of sentences to retrieve through command-line options 
+* use FastAPI to create a web application with API endpoints
+* Implement POST endpoints for scraping Wikipedia pages based on a given name
+* Utilize the `scrape` function from the mylib.bot module to fetch Wikipedia contents
+* Return the scraped content in JSON format using the `JSONResponse` class from `fastapi.responses`
+
 
 ## Getting started 
 clone the repository:
@@ -48,3 +53,18 @@ The output would look like:
 shington. Microsoft's best-known software products are the Windows line of operating systems, the Micr
 osoft 365 suite of productivity applications, and the Internet Explorer and Edge web browsers.
 `
+### Using the FastAPI application:
+
+Start the FastAPI application: 
+
+`python main.py`
+
+Open your browser and go to `http://localhost:8080` to access the root endpoint 
+
+To check the documentation, visit the `Swagger` docs page using the `http://localhost:8080/docs` from where you can use the `POST` and `GET` endpoints via the UI
+
+You can also scrape the 
+
+
+
+
