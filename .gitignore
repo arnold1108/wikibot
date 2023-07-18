@@ -1,4 +1,4 @@
-.env
-.git 
+.env/
+.git/
 .pytest_chache 
-__pychache__
+__pycache__
