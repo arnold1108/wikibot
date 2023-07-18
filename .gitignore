@@ -1,0 +1,4 @@
+.env
+.git 
+.pytest_chache 
+__pychache__
