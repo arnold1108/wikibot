@@ -1,7 +1,6 @@
 
 [![.github/workflows/main.yml](https://github.com/arnold1108/wikibot/actions/workflows/main.yml/badge.svg)](https://github.com/arnold1108/wikibot/actions/workflows/main.yml)
 # wikibot
-=======
 # Wikipedia Scraper
 This project is a simple program that allows you to scrape the first few sentences of a Wikipedia page using Python. It utilizes the `wikipedia` library and provides a command-line interface for easy interaction.
 
