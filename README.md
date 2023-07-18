@@ -23,6 +23,7 @@ Before installing, I would recommend that you activate the virtual environment:
 Then use the `Makefile` to install:
 
 `make install`
+
 Alternatively, you can use the `requirements.txt` file to install the dependencies:
 
 `pip install -r requirements.txt`
