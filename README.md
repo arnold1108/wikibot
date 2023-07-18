@@ -30,6 +30,7 @@ You can get an info by running the following command:
 Example:
 `python wikibot.py --topic "Microsoft" --sentences
  2`
+The output would look like:
 `Microsoft Corporation is an American multinational technology corporation headquartered in Redmond, Wa
 shington. Microsoft's best-known software products are the Windows line of operating systems, the Micr
 osoft 365 suite of productivity applications, and the Internet Explorer and Edge web browsers.
