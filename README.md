@@ -11,23 +11,33 @@ This project is a simple program that allows you to scrape the first few sentenc
 
 ## Getting started 
 clone the repository:
-* `git clone https://github.com/arnold1108/wikibot.git`
+
+`git clone https://github.com/arnold1108/wikibot.git`
 
 Install dependencies:
+
 Before installing, I would recommend that you activate the virtual environment:
-* `source .env/bin/activate`
+
+`source .env/bin/activate`
+
 Then use the `Makefile` to install:
-* `make install`
+
+`make install`
 Alternatively, you can use the `requirements.txt` file to install the dependencies:
-* `pip install -r requirements.txt`
+
+`pip install -r requirements.txt`
 
 ## Usage
 To run the Wikipedia Scraper, use the following command:
+
 `python wikibot.py --topic "Topic name" --sentences 3`
+
 You can get an info by running the following command:
+
 `python wikibot.py --help`
 
 Example:
+
 `python wikibot.py --topic "Microsoft" --sentences
  2`
 
