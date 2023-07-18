@@ -5,3 +5,6 @@ wikipedia
 click
 ipython
 fire 
+fastapi 
+pydantic 
+uvicorn[standard]
