@@ -11,5 +11,6 @@ This project is a simple program that allows you to scrape the first few sentenc
 
 ## Getting started 
 clone the repository:
-`git clone https://github.com/arnold1108/wikibot.git`
+* `git clone https://github.com/arnold1108/wikibot.git`
 
+Instal
