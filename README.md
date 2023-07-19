@@ -71,7 +71,7 @@ To try it our, go to the POST api and try it out. Change the request body to hav
 
 Replace Microsoft with any other Wikipedia Topic and click execute to get the server response. You should get a `Response body` and a `Response headers`:
 
-![Server Response](/home/arnold/Pictures/Screenshots/Screenshot from 2023-07-19 06-45-55.png)
+![Server Response](/home/arnold/Pictures/Screenshots/Screenshot from 2022-11-15 14-39-00.png)
 
 You can also call the microservice APU using the curl. You have to do something like this:
 
