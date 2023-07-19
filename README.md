@@ -86,7 +86,9 @@ curl -X 'POST' \
 
 
 ## Packaging and Containerization
+Use the `docker build .` command to package it into a docker image
 
+To check the image list, use `docker image ls` to confirm that the image has been built
 
-
+Run `docker run -p 127.0.0.1:8080:8080 <image>` to spin up your container 
 
