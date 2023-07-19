@@ -62,6 +62,8 @@ Start the FastAPI application:
 Open your browser and go to `http://localhost:8080` to access the root endpoint 
 
 To check the documentation, visit the `Swagger` docs page using the `http://localhost:8080/docs` from where you can use the `POST` and `GET` endpoints via the UI.
+![image](https://github.com/arnold1108/wikibot/assets/107036640/4f4b9aed-eabb-4015-aa19-2f316b383ada)
+
 
 To try it our, go to the POST api and try it out. Change the request body to have the name of the content you want to scrape, so that it looks like:
 
