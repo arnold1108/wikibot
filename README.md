@@ -63,11 +63,11 @@ Open your browser and go to `http://localhost:8080` to access the root endpoint
 
 To check the documentation, visit the `Swagger` docs page using the `http://localhost:8080/docs` from where you can use the `POST` and `GET` endpoints via the UI.
 
+![Swagger docs ](./images/ui.jpg)
+
 To try it our, go to the POST api and try it out. Change the request body to have the name of the content you want to scrape, so that it looks like:
 
-`{
-  "name": "Microsoft"
-}`
+![POST API](./images/scrape.jpg)
 
 Replace Microsoft with any other Wikipedia Topic and click execute to get the server response. You should get a `Response body` and a `Response headers`:
 
@@ -75,15 +75,7 @@ Replace Microsoft with any other Wikipedia Topic and click execute to get the se
 
 You can also call the microservice APU using the curl. You have to do something like this:
 
-```bash
-curl -X 'POST' \
-  'http://localhost:8080/wiki' \
-  -H 'accept: application/json' \
-  -H 'Content-Type: application/json' \
-  -d '{
-  "name": "Microsoft"
-}'```
-
+`bash invoke.sh`
 
 ## Packaging and Containerization
 Use the `docker build .` command to package it into a docker image
