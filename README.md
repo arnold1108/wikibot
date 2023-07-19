@@ -63,18 +63,15 @@ Open your browser and go to `http://localhost:8080` to access the root endpoint
 
 To check the documentation, visit the `Swagger` docs page using the `http://localhost:8080/docs` from where you can use the `POST` and `GET` endpoints via the UI.
 
-![image](https://github.com/arnold1108/wikibot/assets/107036640/16b2efc1-b52a-4c82-8c9b-57beb1444e38)
+To try it our, go to the POST api and try it out. Change the request body to have the name of the content you want to scrape, so that it looks like:
 
-
-
-To try it out, go to the POST api and try it out. Change the request body to have the name of the content you want to scrape, so that it looks like:
-
-![image](https://github.com/arnold1108/wikibot/assets/107036640/c3f476d1-0ed5-4caa-aef0-345f31ff66fd)
+`{
+  "name": "Microsoft"
+}`
 
 Replace Microsoft with any other Wikipedia Topic and click execute to get the server response. You should get a `Response body` and a `Response headers`:
 
-![image](https://github.com/arnold1108/wikibot/assets/107036640/cd31598d-ddef-49d6-99cc-a5f1cfb139bf)
-
+![Server Response](/home/arnold/Picture)
 
 You can also call the microservice APU using the curl. You have to do something like this:
 
@@ -88,6 +85,7 @@ curl -X 'POST' \
 }'```
 
 
+## Packaging and Containerization
 
 
 
