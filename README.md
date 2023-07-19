@@ -82,5 +82,9 @@ Use the `docker build .` command to package it into a docker image
 
 To check the image list, use `docker image ls` to confirm that the image has been built
 
-Run `docker run -p 127.0.0.1:8080:8080 <image>` to spin up your container 
+Run `docker run -p 127.0.0.1:8080:8080 <image>` to spin up your container. If you have Docker Desktop installed, you can check the container from there
 
+![Container](./images/container.jpg)
+
+## Conclusion
+We have successfully built the function, tested it packaged it into an image and containerized it. It can now be hosted and deployed into a cloud server of your choice 
