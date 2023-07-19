@@ -65,7 +65,7 @@ To check the documentation, visit the `Swagger` docs page using the `http://loca
 
 ![Swagger docs ](./images/ui.jpg)
 
-To try it our, go to the POST api and try it out. Change the request body to have the name of the content you want to scrape, so that it looks like:
+To try it our, go to the POST request and try it out. Change the request body to have the name of the content you want to scrape, so that it looks like:
 
 ![POST API](./images/scrape.jpg)
 
@@ -73,7 +73,7 @@ Replace Microsoft with any other Wikipedia Topic and click execute to get the se
 
 ![Server Response](./images/server-response.jpg)
 
-You can also call the microservice APU using the curl. You have to do something like this:
+You can also call the microservice APU through invoking yout POST request. You have to do something like this:
 
 `bash invoke.sh`
 
